@@ -32,23 +32,23 @@ p{
 }
 
 /* First container */
-.first-container{
+#first-container{
     display: flex;
     width: 80%;
     margin: 0 auto;
 }
-.first-heading{
+.first-cont-first-heading{
     margin-left: 15px;
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
 }
-.second-heading{
+.first-cont-second-heading{
     margin-left: 15px;
     font-family: 'Yeseva One', cursive;
     font-size: 60px;
     color: #FFAD5A;
 }
-.heading-3{
+.first-cont-third-heading{
     margin-top: 48px;
     font-family: 'Poppins', sans-serif;
 }
@@ -62,4 +62,50 @@ p{
 }
 .first-content-divison{
     margin-top: 200px;
+}
+/* Second container */
+#second-container{
+    width: 80%;
+    margin: 100px auto;
+}
+.second-cont-first-heading{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    margin-bottom: 50px;
+}
+.second-cont-first-heading span{
+    color: #FFAD5A;
+}
+.mission-container{
+    display: flex;
+    
+}
+.mission-container .mission-image img{
+    width: 150px;
+    height: 150px;
+}
+.all-misssin{
+   box-shadow: 8px 8px 8px gray;
+   margin: 15px;
+   padding: 15px;
+   border-radius: 10px;
+}
+.all-misssin h1{
+    font-family: 'Poppins', sans-serif;
+ }
+.all-misssin p{
+   text-align: justify;
+}
+.mission{
+    background-color: #f3efee;
+    width: 100%;
+}
+.vision{
+    width: 100%;
+    background-color: #c7f1f1;
+}
+.goals{
+    width: 100%;
+    background-color: #FFF4D6;
 }
