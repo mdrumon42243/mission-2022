@@ -36,6 +36,9 @@ p{
     cursor: pointer;
     color: white;
 }
+.all-button:hover{
+   box-shadow: 10px 10px 10px greenyellow;
+}
 
 /* First container */
 #first-container{
@@ -93,7 +96,9 @@ p{
    box-shadow: 8px 8px 8px gray;
    margin: 15px;
    padding: 15px;
-   border-radius: 10px;
+   border: 3px solid;
+   border-image: linear-gradient(aqua, blue);
+   border-image-slice: 1;
 }
 .all-misssin p{
    text-align: justify;
@@ -139,3 +144,54 @@ p{
     margin-left: 30px;
 }
 
+/* Fifth section */
+#fifth-section h1{
+    text-align: center;
+}
+.fifth-cont-image img{
+    width: 100px;
+}
+#fifth-container .fifth-cont-first-div{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 60px;
+}
+#fifth-container .fifth-cont-second-div{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+}
+.fifth-cont-content{
+    width: 100%;
+    padding: 20px 20px;
+    border-radius: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 7px 7px 7px gray;
+}
+.fifth-cont-content:hover{
+    box-shadow: 13px 13px 13px rgb(60, 228, 74);
+}
+/* footer section */
+footer{
+    background-color: black;
+    padding: 50px;
+}
+footer p{
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+footer p #white-footer{
+    color: white;
+    font-size: 36px;
+}
+footer p #red-footer{
+    color: rgb(236, 25, 25);
+    font-size: 36px;
+}
+#white-color{
+    color: white;
+}
